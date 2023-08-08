@@ -80,14 +80,14 @@ public class Main {
         int three = 3;
         if(one > two && one > three) {
             System.out.println("Первое число больше всех");
-        } else if (one == two) {
-            System.out.println("Первое и второе число равны");
-        } else if (one == three) {
-            System.out.println("Первое и третье число равны");
+//        } else if (one == two) {
+//            System.out.println("Первое и второе число равны");
+//        } else if (one == three) {
+//            System.out.println("Первое и третье число равны");
         } else if (two < one && two < three) {
             System.out.println("Второе число больше всех");
-        } else if(two == three) {
-            System.out.println("Второе и третье число равны");
+//        } else if(two == three) {
+//            System.out.println("Второе и третье число равны");
         } else {
             System.out.println("Третье число больше всех");
         }
